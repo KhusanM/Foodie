@@ -19,10 +19,6 @@ class ProfileVC: UIViewController {
         }
     }
     
-
-    
-    
-    
     @IBOutlet weak var personNameLbl: UILabel!
     @IBOutlet weak var emaliLbl: UILabel!
     @IBOutlet weak var phoneNumberLbl: UILabel!
@@ -72,11 +68,6 @@ class ProfileVC: UIViewController {
         vc.delegate = self
         present(vc, animated: true, completion: nil)
     }
-    
-  
-    
-    
-
 
 }
 extension ProfileVC: DMDelegate {
