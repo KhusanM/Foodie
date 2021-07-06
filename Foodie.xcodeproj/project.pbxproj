@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+		4D25BE7C2691A73B0043B210 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE7A2691A73B0043B210 /* ProfileVC.swift */; };
+		4D25BE7D2691A73B0043B210 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D25BE7B2691A73B0043B210 /* ProfileVC.xib */; };
+		4D25BE802691C6B20043B210 /* PresonalDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25BE7E2691C6B20043B210 /* PresonalDetailsVC.swift */; };
+		4D25BE812691C6B20043B210 /* PresonalDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D25BE7F2691C6B20043B210 /* PresonalDetailsVC.xib */; };
+
 		573139B72692B0DC00BE6FA6 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573139B52692B0DC00BE6FA6 /* CartVC.swift */; };
 		573139B82692B0DC00BE6FA6 /* CartVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573139B62692B0DC00BE6FA6 /* CartVC.xib */; };
 		573139C32692B30500BE6FA6 /* CartTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573139C12692B30500BE6FA6 /* CartTVC.swift */; };
 		573139C42692B30500BE6FA6 /* CartTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573139C22692B30500BE6FA6 /* CartTVC.xib */; };
 		577A6BE02694666D0002671F /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577A6BDE2694666D0002671F /* OrderVC.swift */; };
 		577A6BE12694666D0002671F /* OrderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 577A6BDF2694666D0002671F /* OrderVC.xib */; };
+
 		DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB902212691A56400A95EAE /* AppDelegate.swift */; };
 		DCB9022C2691A56400A95EAE /* Foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCB9022A2691A56400A95EAE /* Foodie.xcdatamodeld */; };
 		DCB9022E2691A56700A95EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB9022D2691A56700A95EAE /* Assets.xcassets */; };
@@ -20,12 +27,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+
+		4D25BE7A2691A73B0043B210 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		4D25BE7B2691A73B0043B210 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		4D25BE7E2691C6B20043B210 /* PresonalDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresonalDetailsVC.swift; sourceTree = "<group>"; };
+		4D25BE7F2691C6B20043B210 /* PresonalDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresonalDetailsVC.xib; sourceTree = "<group>"; };
+
 		573139B52692B0DC00BE6FA6 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		573139B62692B0DC00BE6FA6 /* CartVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartVC.xib; sourceTree = "<group>"; };
 		573139C12692B30500BE6FA6 /* CartTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTVC.swift; sourceTree = "<group>"; };
 		573139C22692B30500BE6FA6 /* CartTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTVC.xib; sourceTree = "<group>"; };
 		577A6BDE2694666D0002671F /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
 		577A6BDF2694666D0002671F /* OrderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderVC.xib; sourceTree = "<group>"; };
+
 		DCB9021E2691A56400A95EAE /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB902212691A56400A95EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCB9022B2691A56400A95EAE /* Foodie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodie.xcdatamodel; sourceTree = "<group>"; };
@@ -87,6 +101,13 @@
 				573139C02692B2EA00BE6FA6 /* ShaxzodTVC */,
 				573139B42692B0C700BE6FA6 /* ShaxzodVC */,
 				DCB902212691A56400A95EAE /* AppDelegate.swift */,
+
+				4D25BE7A2691A73B0043B210 /* ProfileVC.swift */,
+				4D25BE7B2691A73B0043B210 /* ProfileVC.xib */,
+				4D25BE7E2691C6B20043B210 /* PresonalDetailsVC.swift */,
+				4D25BE7F2691C6B20043B210 /* PresonalDetailsVC.xib */,
+
+
 				DCB9022D2691A56700A95EAE /* Assets.xcassets */,
 				DCB9022F2691A56700A95EAE /* LaunchScreen.storyboard */,
 				DCB902322691A56700A95EAE /* Info.plist */,
@@ -153,10 +174,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCB902312691A56700A95EAE /* LaunchScreen.storyboard in Resources */,
+
+				4D25BE812691C6B20043B210 /* PresonalDetailsVC.xib in Resources */,
+				4D25BE7D2691A73B0043B210 /* ProfileVC.xib in Resources */,
+				DCB9022E2691A56700A95EAE /* Assets.xcassets in Resources */,
+
 				577A6BE12694666D0002671F /* OrderVC.xib in Resources */,
 				573139B82692B0DC00BE6FA6 /* CartVC.xib in Resources */,
 				DCB9022E2691A56700A95EAE /* Assets.xcassets in Resources */,
 				573139C42692B30500BE6FA6 /* CartTVC.xib in Resources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,11 +194,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
+				4D25BE7C2691A73B0043B210 /* ProfileVC.swift in Sources */,
+				4D25BE802691C6B20043B210 /* PresonalDetailsVC.swift in Sources */,
+				DCB9022C2691A56400A95EAE /* Foodie.xcdatamodeld in Sources */,
+				DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */,
+
 				DCB9022C2691A56400A95EAE /* Foodie.xcdatamodeld in Sources */,
 				DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */,
 				573139B72692B0DC00BE6FA6 /* CartVC.swift in Sources */,
 				573139C32692B30500BE6FA6 /* CartTVC.swift in Sources */,
 				577A6BE02694666D0002671F /* OrderVC.swift in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
