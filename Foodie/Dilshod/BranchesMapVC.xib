@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BranchesMapVC" customModule="Foodie" customModuleProvider="target">
+            <connections>
+                <outlet property="map" destination="hfj-TS-zaJ" id="2Ax-2t-hAH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hfj-TS-zaJ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </mapView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFN-eF-EGc">
+                    <rect key="frame" x="334" y="782" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="XG9-10-KZu"/>
+                        <constraint firstAttribute="width" constant="50" id="pph-Pl-cId"/>
+                    </constraints>
+                    <state key="normal" image="location.fill" catalog="system"/>
+                    <connections>
+                        <action selector="gpsButton:" destination="-1" eventType="touchUpInside" id="aOW-WD-mU3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJg-VQ-Sqk">
+                    <rect key="frame" x="334" y="44" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="1PP-1i-IbX"/>
+                        <constraint firstAttribute="width" constant="50" id="vL4-7b-7Za"/>
+                    </constraints>
+                    <state key="normal" image="xmark.circle" catalog="system"/>
+                    <connections>
+                        <action selector="backButton:" destination="-1" eventType="touchUpInside" id="IpS-TC-ndN"/>
+                        <action selector="gpsButton:" destination="-1" eventType="touchUpInside" id="Hat-Bl-Uy8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hfj-TS-zaJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="1BT-ws-ty8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="gFN-eF-EGc" secondAttribute="bottom" constant="30" id="2PD-ZA-lar"/>
+                <constraint firstAttribute="bottom" secondItem="hfj-TS-zaJ" secondAttribute="bottom" id="M5c-PB-fcF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gFN-eF-EGc" secondAttribute="trailing" constant="30" id="PZw-Nu-Ylf"/>
+                <constraint firstItem="TJg-VQ-Sqk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="SqJ-4y-XVY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hfj-TS-zaJ" secondAttribute="trailing" id="cvs-rF-V0O"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TJg-VQ-Sqk" secondAttribute="trailing" constant="30" id="eRv-0u-ctT"/>
+                <constraint firstItem="hfj-TS-zaJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tP9-Yd-a4q"/>
+            </constraints>
+            <point key="canvasLocation" x="46" y="28"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="location.fill" catalog="system" width="128" height="121"/>
+        <image name="xmark.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
