@@ -26,6 +26,10 @@
 		DCB9027326958C8100A95EAE /* DescVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB9026E26958C8100A95EAE /* DescVC.xib */; };
 		DCB9027426958C8100A95EAE /* DescVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB9026F26958C8100A95EAE /* DescVC.swift */; };
 		DCB9027526958C8100A95EAE /* NotConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB9027026958C8100A95EAE /* NotConnectionVC.swift */; };
+		DCB9027B26958EEE00A95EAE /* Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB9027726958EEE00A95EAE /* Menu.xib */; };
+		DCB9027C26958EEE00A95EAE /* BranchesMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB9027826958EEE00A95EAE /* BranchesMapVC.swift */; };
+		DCB9027D26958EEE00A95EAE /* BranchesMapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB9027926958EEE00A95EAE /* BranchesMapVC.xib */; };
+		DCB9027E26958EEE00A95EAE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB9027A26958EEE00A95EAE /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,10 @@
 		DCB9026E26958C8100A95EAE /* DescVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescVC.xib; sourceTree = "<group>"; };
 		DCB9026F26958C8100A95EAE /* DescVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescVC.swift; sourceTree = "<group>"; };
 		DCB9027026958C8100A95EAE /* NotConnectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotConnectionVC.swift; sourceTree = "<group>"; };
+		DCB9027726958EEE00A95EAE /* Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Menu.xib; sourceTree = "<group>"; };
+		DCB9027826958EEE00A95EAE /* BranchesMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchesMapVC.swift; sourceTree = "<group>"; };
+		DCB9027926958EEE00A95EAE /* BranchesMapVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BranchesMapVC.xib; sourceTree = "<group>"; };
+		DCB9027A26958EEE00A95EAE /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 		DCB902202691A56400A95EAE /* Foodie */ = {
 			isa = PBXGroup;
 			children = (
+				DCB9027626958EAC00A95EAE /* Dilshod */,
 				DCB9026B26958C8100A95EAE /* Alibek */,
 				573139C02692B2EA00BE6FA6 /* ShaxzodTVC */,
 				573139B42692B0C700BE6FA6 /* ShaxzodVC */,
@@ -128,6 +137,17 @@
 				DCB9027026958C8100A95EAE /* NotConnectionVC.swift */,
 			);
 			path = Alibek;
+			sourceTree = "<group>";
+		};
+		DCB9027626958EAC00A95EAE /* Dilshod */ = {
+			isa = PBXGroup;
+			children = (
+				DCB9027826958EEE00A95EAE /* BranchesMapVC.swift */,
+				DCB9027926958EEE00A95EAE /* BranchesMapVC.xib */,
+				DCB9027A26958EEE00A95EAE /* Menu.swift */,
+				DCB9027726958EEE00A95EAE /* Menu.xib */,
+			);
+			path = Dilshod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +210,9 @@
 				DCB902312691A56700A95EAE /* LaunchScreen.storyboard in Resources */,
 				DCB9027326958C8100A95EAE /* DescVC.xib in Resources */,
 				4D25BE812691C6B20043B210 /* PresonalDetailsVC.xib in Resources */,
+				DCB9027D26958EEE00A95EAE /* BranchesMapVC.xib in Resources */,
 				4D25BE7D2691A73B0043B210 /* ProfileVC.xib in Resources */,
+				DCB9027B26958EEE00A95EAE /* Menu.xib in Resources */,
 				DCB9027126958C8100A95EAE /* CVC.xib in Resources */,
 				DCB9022E2691A56700A95EAE /* Assets.xcassets in Resources */,
 				577A6BE12694666D0002671F /* OrderVC.xib in Resources */,
@@ -209,10 +231,12 @@
 			files = (
 				4D25BE7C2691A73B0043B210 /* ProfileVC.swift in Sources */,
 				4D25BE802691C6B20043B210 /* PresonalDetailsVC.swift in Sources */,
+				DCB9027E26958EEE00A95EAE /* Menu.swift in Sources */,
 				DCB9027226958C8100A95EAE /* CVC.swift in Sources */,
 				DCB9022C2691A56400A95EAE /* Foodie.xcdatamodeld in Sources */,
 				DCB9027426958C8100A95EAE /* DescVC.swift in Sources */,
 				DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */,
+				DCB9027C26958EEE00A95EAE /* BranchesMapVC.swift in Sources */,
 				DCB9022C2691A56400A95EAE /* Foodie.xcdatamodeld in Sources */,
 				DCB902222691A56400A95EAE /* AppDelegate.swift in Sources */,
 				573139B72692B0DC00BE6FA6 /* CartVC.swift in Sources */,
