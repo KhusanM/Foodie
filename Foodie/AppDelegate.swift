@@ -14,7 +14,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
+        window = UIWindow()
+        
+        if UserDefaults.standard.string(forKey: "token") != nil{
+            let vc = Tabbar(nibName: "Tabbar", bundle: nil)
+            
+            window?.rootViewController = vc
+        }else if UserDefaults.standard.string(forKey: "tokenLogin") != nil{
+            let vc = Tabbar(nibName: "Tabbar", bundle: nil)
+            
+            window?.rootViewController = vc
+        }else{
+            let vc = WelcomeVC(nibName: "WelcomeVC", bundle: nil)
+            window?.rootViewController = vc
+        }
+        
+        
+        window?.makeKeyAndVisible()
         
         return true
     }

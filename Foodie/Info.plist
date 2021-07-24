@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Locatsiyangni ishlatamiz indi jo&apos;ra ruhsat bar</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Locatsiyangni ishlatamiz indi jo&apos;ra</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Locatsiyangni ishlatamiz indi</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ishlab durganda</string>
 </dict>
 </plist>
